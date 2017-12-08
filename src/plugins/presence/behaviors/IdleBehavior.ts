@@ -1,5 +1,5 @@
-import {BehaviorAbstract} from '../../../core/Behavior/BehaviorAbstract';
-import {BehaviorInterface} from '../../../core/Behavior/BehaviorInterface';
+import {BehaviorAbstract} from '../../../core/behavior/BehaviorAbstract';
+import {BehaviorInterface} from '../../../core/behavior/BehaviorInterface';
 import {PresencePlugin} from '../PresencePlugin';
 
 export class IdleBehavior extends BehaviorAbstract implements BehaviorInterface {

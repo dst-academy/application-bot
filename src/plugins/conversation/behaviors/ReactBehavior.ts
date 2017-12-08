@@ -1,6 +1,6 @@
 import * as Discord from 'discord.js';
-import {BehaviorAbstract} from '../../../core/Behavior/BehaviorAbstract';
-import {BehaviorInterface} from '../../../core/Behavior/BehaviorInterface';
+import {BehaviorAbstract} from '../../../core/behavior/BehaviorAbstract';
+import {BehaviorInterface} from '../../../core/behavior/BehaviorInterface';
 
 export class ReactBehavior extends BehaviorAbstract implements BehaviorInterface {
 	public readonly event: string = 'messageReactionAdd';

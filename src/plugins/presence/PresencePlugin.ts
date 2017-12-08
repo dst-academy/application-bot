@@ -1,7 +1,7 @@
 import * as Discord from 'discord.js';
 import {PluginAbstract} from '../../core/plugin/PluginAbstract';
 import {PluginInterface} from '../../core/plugin/PluginInterface';
-import {BehaviorConstructor} from '../../core/Behavior/BehaviorConstructor';
+import {BehaviorConstructor} from '../../core/behavior/BehaviorConstructor';
 import {IdleBehavior} from './behaviors/IdleBehavior';
 
 export class PresencePlugin extends PluginAbstract implements PluginInterface {

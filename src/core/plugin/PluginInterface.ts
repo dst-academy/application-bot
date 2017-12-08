@@ -1,6 +1,6 @@
 import {Bot} from '../Bot';
 import {CommandConstructor} from '../command/CommandConstructor';
-import {BehaviorConstructor} from '../Behavior/BehaviorConstructor';
+import {BehaviorConstructor} from '../behavior/BehaviorConstructor';
 
 export interface PluginInterface {
 	readonly commands: CommandConstructor[];
