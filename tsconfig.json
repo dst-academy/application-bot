@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "allowUnreachableCode": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "noEmitOnError": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": [
+	"node_modules/"
+  ]
+}

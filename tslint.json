@@ -1,0 +1,20 @@
+{
+	"extends": "tslint:latest",
+	"rules": {
+		"indent": [true, "tabs"],
+		"quotemark": [true, "single"],
+		"no-unused-expression": false,
+		"whitespace": false,
+		"object-literal-sort-keys": false,
+		"interface-name": false,
+		"ordered-imports": false,
+		"no-empty": false,
+		"curly": false,
+		"no-submodule-imports": false,
+		"no-conditional-assignment": false,
+		"no-console": false
+	},
+	"linterOptions": {
+		"exclude": ["node_modules/"]
+	}
+}

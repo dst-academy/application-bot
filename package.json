@@ -1,0 +1,33 @@
+{
+  "name": "@d3a7/bot",
+  "version": "0.1.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "./app/index.ts",
+  "scripts": {
+    "start": "ts-node ./app/index.ts",
+    "dev": "nodemon",
+    "lint": "tslint --project tsconfig.json --force"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "dotenv": "^4.0.0",
+    "got": "^8.0.1",
+    "pretty-bytes": "^4.0.2",
+    "pretty-ms": "^3.1.0",
+    "sanitize-html": "^1.16.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.2",
+    "@types/i18next": "^8.4.2",
+    "@types/i18next-node-fs-backend": "0.0.29",
+    "@types/node": "^8.0.57",
+    "@types/pretty-bytes": "^4.0.0",
+    "@types/sanitize-html": "^1.14.0",
+    "nodemon": "^1.12.5",
+    "tslint": "^5.8.0"
+  }
+}
