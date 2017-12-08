@@ -2,8 +2,8 @@ import * as Discord from 'discord.js';
 import {PluginConstructor} from './plugin/PluginInterface';
 import {CommandConstructor} from './command/CommandConstructor';
 import {CommandInterface} from './command/CommandInterface';
-import {BehaviorConstructor} from './Behavior/BehaviorConstructor';
-import {BehaviorInterface} from './Behavior/BehaviorInterface';
+import {BehaviorConstructor} from './behavior/BehaviorConstructor';
+import {BehaviorInterface} from './behavior/BehaviorInterface';
 
 export class Bot {
 	public configuration: any;
