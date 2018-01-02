@@ -1,0 +1,14 @@
+version: "2"
+services:
+  bot:
+    image: node:9
+    tty: true
+    stdin_open: true
+    restart: always
+    command: npm start
+    user: node
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app
