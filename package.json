@@ -16,18 +16,18 @@
     "got": "^8.0.1",
     "pretty-bytes": "^4.0.2",
     "pretty-ms": "^3.1.0",
-    "sanitize-html": "^1.16.1",
-    "ts-node": "^3.3.0",
+    "sanitize-html": "^1.16.3",
+    "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
   },
   "devDependencies": {
     "@types/dotenv": "^4.0.2",
     "@types/i18next": "^8.4.2",
     "@types/i18next-node-fs-backend": "0.0.29",
-    "@types/node": "^8.0.57",
+    "@types/node": "^8.5.2",
     "@types/pretty-bytes": "^4.0.0",
     "@types/sanitize-html": "^1.14.0",
-    "nodemon": "^1.12.5",
+    "nodemon": "^1.14.7",
     "tslint": "^5.8.0"
   }
 }
